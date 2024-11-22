@@ -1,0 +1,9 @@
+[package]
+name = "rat-utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.28.1"
+nix = { version = "0.29.0", features = ["user"] }
+ratatui = "0.29.0"
